@@ -1,1 +1,1 @@
-i ike assembly especially 6502 :)
+young programmer that use html bash and EMACS
