@@ -1,0 +1,76 @@
+<html>
+<head>
+<title> Jayden 7B portfolio </title>
+</head>
+<body>
+<div id="A">
+<p style="font-family:'Courier New'"> this is my porfolio! - 
+FRAME-0 </p>
+</div>
+<div id="B">
+<p style="font-family:'Courier New'">
+I am Jayden, and i like to engineer stuff using a arduino and bread board. i am talkative but smart type of person.
+FRAME-1
+</p>
+<br>
+<h1>ARDUINO BOARD</h1>
+<img src='ARD.jfif'></img>
+</div>
+<div id="C">
+<p style="font-family:'Courier New'">
+I have a absolute addiction of macintosh because it looks advanced, even for this time. Imac g3's are my second favourite, and i can speak russian.
+frame-2
+</p>
+<img src='HI.jfif'></src>
+</div>
+<div id="D">
+<p style="font-family:'Courier New'">
+	my hobbies are:
+</p>
+<ul>
+	<li> programming html </li>
+	<img src='ARD.jfif'></img>
+	<li> arduino </li>
+	<li> designing computers</li>
+	<li> doing homework </li>
+	<li> torturing my lil sis </li>
+</ul>
+</div>
+<br>
+<br>
+<button type='button' onclick='fZ()' id='A'> FRAME-0 </button>
+<button type="button" onclick='fA();' id="A"> FRAME-1 </button>
+<button type="button" onclick='fB()' id="A"> FRAME-2 </button>
+<button type="button" onclick='fC()' id="A"> FRAME-3 </button>
+<script>
+document.getElementById("A").hidden = false;
+document.getElementById("B").hidden = true;
+document.getElementById("C").hidden = true;
+document.getElementById("D").hidden = true;
+function fZ() {
+	document.getElementById("B").hidden = true;
+	document.getElementById("C").hidden = true;
+	document.getElementById("A").hidden = false;
+	document.getElementById("D").hidden = true;
+}
+function fA(){
+	document.getElementById("A").hidden = true;
+	document.getElementById("B").hidden = false;
+	document.getElementById("C").hidden = true;
+	document.getElementById("D").hidden = true;
+}
+function fB(){
+	document.getElementById("A").hidden = true;
+	document.getElementById("B").hidden = true;
+	document.getElementById("C").hidden = false;
+	document.getElementById("D").hidden = true;
+}
+function fC(){
+	document.getElementById("A").hidden = true;
+	document.getElementById("B").hidden = true;
+	document.getElementById("C").hidden = true;
+	document.getElementById("D").hidden = false;
+}
+</script>
+</body>
+</html>
